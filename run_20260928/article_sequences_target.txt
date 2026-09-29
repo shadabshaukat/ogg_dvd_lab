@@ -1,0 +1,13 @@
+dvdrental.actor_actor_id_seq|32500|32500|t
+dvdrental.address_address_id_seq|130036|130036|t
+dvdrental.category_category_id_seq|16|4816|t
+dvdrental.city_city_id_seq|12|3612|t
+dvdrental.country_country_id_seq|6|1806|t
+dvdrental.customer_customer_id_seq|130000|130000|t
+dvdrental.film_film_id_seq|65000|65000|t
+dvdrental.inventory_inventory_id_seq|260000|260000|t
+dvdrental.language_language_id_seq|6|1806|t
+dvdrental.payment_payment_id_seq|1300000|1300000|t
+dvdrental.rental_rental_id_seq|1300000|1300000|t
+dvdrental.staff_staff_id_seq|24|24|t
+dvdrental.store_store_id_seq|12|12|t

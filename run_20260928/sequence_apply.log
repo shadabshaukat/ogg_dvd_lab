@@ -1,0 +1,79 @@
+SET
+SET
+SET
+SET
+SET
+ set_config 
+------------
+ 
+(1 row)
+
+SET
+SET
+SET
+SET
+ setval 
+--------
+  32500
+(1 row)
+
+ setval 
+--------
+ 130036
+(1 row)
+
+ setval 
+--------
+   4816
+(1 row)
+
+ setval 
+--------
+   3612
+(1 row)
+
+ setval 
+--------
+   1806
+(1 row)
+
+ setval 
+--------
+ 130000
+(1 row)
+
+ setval 
+--------
+  65000
+(1 row)
+
+ setval 
+--------
+ 260000
+(1 row)
+
+ setval 
+--------
+   1806
+(1 row)
+
+ setval  
+---------
+ 1300000
+(1 row)
+
+ setval  
+---------
+ 1300000
+(1 row)
+
+ setval 
+--------
+     24
+(1 row)
+
+ setval 
+--------
+     12
+(1 row)
+

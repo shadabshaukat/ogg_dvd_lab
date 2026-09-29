@@ -1,0 +1,8 @@
+SET
+SET
+ANALYZE
+ tables_with_statistics 
+------------------------
+                     15
+(1 row)
+

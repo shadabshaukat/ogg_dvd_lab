@@ -1,0 +1,48 @@
+        clock_timestamp        | rentals 
+-------------------------------+---------
+ 2026-09-27 15:25:30.740418+00 | 1038000
+(1 row)
+
+ schemaname |      tablename      
+------------+---------------------
+ ggadmin    | dvd_chkpt_pgrp
+ ggadmin    | dvd_chkpt_pgrp_0_00
+ ggadmin    | dvd_chkpt_pgrp_0_01
+ ggadmin    | dvd_chkpt_pgrp_0_02
+ ggadmin    | dvd_chkpt_pgrp_0_03
+ ggadmin    | dvd_chkpt_pgrp_0_04
+ ggadmin    | dvd_chkpt_pgrp_0_05
+ ggadmin    | dvd_chkpt_pgrp_0_06
+ ggadmin    | dvd_chkpt_pgrp_0_07
+ ggadmin    | dvd_chkpt_pgrp_0_08
+ ggadmin    | dvd_chkpt_pgrp_0_09
+ ggadmin    | dvd_chkpt_pgrp_0_10
+ ggadmin    | dvd_chkpt_pgrp_0_11
+ ggadmin    | dvd_chkpt_pgrp_0_12
+ ggadmin    | dvd_chkpt_pgrp_0_13
+ ggadmin    | dvd_chkpt_pgrp_0_14
+ ggadmin    | dvd_chkpt_pgrp_0_15
+(17 rows)
+
+  pid   | application_name |        state        | wait_event_type | wait_event |    xact_age     | pg_blocking_pids 
+--------+------------------+---------------------+-----------------+------------+-----------------+------------------
+ 210922 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:02.218245 | {}
+ 210920 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:27.46557  | {}
+ 210921 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:27.465159 | {}
+ 210923 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:02.01288  | {}
+ 210924 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:27.454617 | {}
+ 210925 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:27.449554 | {}
+ 210926 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:01.58992  | {}
+ 210927 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:02.049877 | {}
+ 210940 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:02.21727  | {}
+ 210946 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:02.220237 | {}
+ 210952 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:02.149628 | {}
+ 210958 | postgresql       | idle in transaction | Client          | ClientRead | 00:00:02.188947 | {}
+ 210978 | psql             | active              |                 |            | 00:00:00.001448 | {}
+(13 rows)
+
+ deadlocks | temp_bytes 
+-----------+------------
+         0 |  291962880
+(1 row)
+

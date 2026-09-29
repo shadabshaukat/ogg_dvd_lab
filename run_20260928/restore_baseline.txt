@@ -1,0 +1,25 @@
+        clock_timestamp        |              phase              
+-------------------------------+---------------------------------
+ 2026-09-27 15:24:54.473389+00 | target_after_restore_before_cdc
+(1 row)
+
+ rentals 
+---------
+ 1000000
+(1 row)
+
+ payments 
+----------
+  1000000
+(1 row)
+
+ foreign_keys | not_validated 
+--------------+---------------
+           22 |             0
+(1 row)
+
+ checkpoints_before_add 
+------------------------
+                      0
+(1 row)
+

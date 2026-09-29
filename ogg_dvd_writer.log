@@ -1,0 +1,14 @@
+Appending 100 rentals and payments to the SYD source...
+BEGIN
+SET
+psql:/home/opc/ogg_dvd_lab/01_load_source.sql:43: NOTICE:  Appended: 100 rentals/payments, 10 customers/addresses, 5 films, 3 actors, 20 inventory, 15 cast links, 5 category links
+CALL
+COMMIT
+Source data load completed.
+Appending 100 rentals and payments to the SYD source...
+BEGIN
+SET
+psql:/home/opc/ogg_dvd_lab/01_load_source.sql:43: NOTICE:  Appended: 100 rentals/payments, 10 customers/addresses, 5 films, 3 actors, 20 inventory, 15 cast links, 5 category links
+CALL
+COMMIT
+Source data load completed.

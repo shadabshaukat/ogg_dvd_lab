@@ -1,0 +1,27 @@
+                    Table "ggadmin.dvd_chkpt_pgrp"
+   Column   |          Type          | Collation | Nullable | Default 
+------------+------------------------+-----------+----------+---------
+ applier_id | numeric(10,0)          |           | not null | 
+ lwm_csn    | character varying(128) |           |          | 
+ seqno      | numeric(10,0)          |           |          | 
+ rba        | numeric(10,0)          |           |          | 
+ log_bsn    | character varying(128) |           |          | 
+ trail_name | character varying(250) |           |          | 
+ trail_id   | numeric(10,0)          |           | not null | 
+ group_key  | numeric(19,0)          |           | not null | 
+ version    | numeric(10,0)          |           |          | 
+Indexes:
+    "dvd_chkpt_pgrp_pkey" PRIMARY KEY, btree (applier_id, trail_id, group_key)
+
+ applier_id |      lwm_csn      | seqno |    rba    |  log_bsn   | trail_name | trail_id | group_key  | version 
+------------+-------------------+-------+-----------+------------+------------+----------+------------+---------
+          1 | 00000000/84B0C868 |     0 | 155622858 | 0/64FF5828 | dv         |        0 | 3699748942 |       1
+          0 | 00000000/84B0C868 |     0 | 155622858 | 0/64FF5828 | dv         |        0 | 3699748942 |       1
+          4 | 00000000/84B0C868 |     0 | 155622858 | 0/64FF5828 | dv         |        0 | 3699748942 |       1
+          6 | 00000000/84B0C868 |     0 | 155622858 | 0/64FF5828 | dv         |        0 | 3699748942 |       1
+          3 | 00000000/84B0C868 |     0 | 155622858 | 0/64FF5828 | dv         |        0 | 3699748942 |       1
+          5 | 00000000/84B0C868 |     0 | 155622858 | 0/64FF5828 | dv         |        0 | 3699748942 |       1
+          2 | 00000000/84B0C868 |     0 | 155622858 | 0/64FF5828 | dv         |        0 | 3699748942 |       1
+          7 | 00000000/84B0C868 |     0 | 155622858 | 0/64FF5828 | dv         |        0 | 3699748942 |       1
+(8 rows)
+
