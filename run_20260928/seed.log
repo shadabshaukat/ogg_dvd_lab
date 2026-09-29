@@ -1,9 +1,0 @@
-SEED_START=2026-09-27T15:15:36Z
-Appending 1000000 rentals and payments to the SYD source...
-BEGIN
-SET
-psql:/home/opc/ogg_dvd_lab/01_load_source.sql:43: NOTICE:  Appended: 1000000 rentals/payments, 100000 customers/addresses, 50000 films, 25000 actors, 200000 inventory, 150000 cast links, 50000 category links
-CALL
-COMMIT
-Source data load completed.
-SEED_END=2026-09-27T15:17:10Z

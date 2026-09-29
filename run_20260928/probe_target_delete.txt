@@ -1,5 +1,0 @@
- deleted_probe_remaining 
--------------------------
-                       0
-(1 row)
-
